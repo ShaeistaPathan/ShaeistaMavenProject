@@ -10,7 +10,7 @@ public class BrowserFactory {
 	static WebDriver driver;
 	
 	public static WebDriver init() {
-		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "drivers\\chromedriver102.exe");
 		driver = new ChromeDriver();
 		driver.manage().deleteAllCookies();
 		driver.get("https://techfios.com/billing/?ng=admin/");
